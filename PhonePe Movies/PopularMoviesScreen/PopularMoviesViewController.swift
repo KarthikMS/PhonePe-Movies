@@ -38,7 +38,7 @@ final class PopularMoviesViewController: UITableViewController {
     // MARK: - Setup
     
     private func configureTableView() {
-        tableView.registerClassWithDefaultIdentifier(UITableViewCell.self)
+        tableView.register(PopularMoviesTableViewCell.self, forCellReuseIdentifier: "cell")
         tableView.rowHeight = UITableView.automaticDimension
     }
     
@@ -83,11 +83,11 @@ extension PopularMoviesViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCellWithDefaultIdentifier() as? UITableViewCell else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as? PopularMoviesTableViewCell else {
             return UITableViewCell()
         }
         let movie = viewModel.state.movies[indexPath.row]
-        cell.textLabel?.text = movie.title
+        cell.configure(for: movie)
         return cell
     }
 

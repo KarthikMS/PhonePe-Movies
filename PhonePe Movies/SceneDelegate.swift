@@ -20,6 +20,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let popularMoviesVC = PopularMoviesViewController(viewModel: popularMoviesVM)
         let navigationController = UINavigationController(rootViewController: popularMoviesVC)
         navigationController.navigationBar.prefersLargeTitles = true
+        navigationController.navigationBar.isTranslucent = false
+        navigationController.navigationBar.backgroundColor = .white
         
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
