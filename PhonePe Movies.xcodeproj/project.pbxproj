@@ -10,7 +10,6 @@
 		259EF74B2AC0508C0011BF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74A2AC0508C0011BF3A /* AppDelegate.swift */; };
 		259EF74D2AC0508C0011BF3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */; };
 		259EF74F2AC0508C0011BF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74E2AC0508C0011BF3A /* ViewController.swift */; };
-		259EF7522AC0508C0011BF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7502AC0508C0011BF3A /* Main.storyboard */; };
 		259EF7542AC0508D0011BF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7532AC0508D0011BF3A /* Assets.xcassets */; };
 		259EF7572AC0508D0011BF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */; };
 		259EF7622AC0508D0011BF3A /* PhonePe_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF7612AC0508D0011BF3A /* PhonePe_MoviesTests.swift */; };
@@ -40,7 +39,6 @@
 		259EF74A2AC0508C0011BF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		259EF74E2AC0508C0011BF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		259EF7512AC0508C0011BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		259EF7532AC0508D0011BF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259EF7562AC0508D0011BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259EF7582AC0508D0011BF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				259EF74A2AC0508C0011BF3A /* AppDelegate.swift */,
 				259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */,
 				259EF74E2AC0508C0011BF3A /* ViewController.swift */,
-				259EF7502AC0508C0011BF3A /* Main.storyboard */,
 				259EF7532AC0508D0011BF3A /* Assets.xcassets */,
 				259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */,
 				259EF7582AC0508D0011BF3A /* Info.plist */,
@@ -233,7 +230,6 @@
 			files = (
 				259EF7572AC0508D0011BF3A /* LaunchScreen.storyboard in Resources */,
 				259EF7542AC0508D0011BF3A /* Assets.xcassets in Resources */,
-				259EF7522AC0508C0011BF3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		259EF7502AC0508C0011BF3A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				259EF7512AC0508C0011BF3A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,14 +430,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PhonePe Movies/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,14 +458,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PhonePe Movies/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
