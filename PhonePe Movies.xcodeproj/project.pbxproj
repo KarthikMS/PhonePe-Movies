@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259EF74B2AC0508C0011BF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74A2AC0508C0011BF3A /* AppDelegate.swift */; };
+		259EF74D2AC0508C0011BF3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */; };
+		259EF74F2AC0508C0011BF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74E2AC0508C0011BF3A /* ViewController.swift */; };
+		259EF7522AC0508C0011BF3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7502AC0508C0011BF3A /* Main.storyboard */; };
+		259EF7542AC0508D0011BF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7532AC0508D0011BF3A /* Assets.xcassets */; };
+		259EF7572AC0508D0011BF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */; };
+		259EF7622AC0508D0011BF3A /* PhonePe_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF7612AC0508D0011BF3A /* PhonePe_MoviesTests.swift */; };
+		259EF76C2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF76B2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift */; };
+		259EF76E2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259EF75E2AC0508D0011BF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259EF73F2AC0508C0011BF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259EF7462AC0508C0011BF3A;
+			remoteInfo = "PhonePe Movies";
+		};
+		259EF7682AC0508D0011BF3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259EF73F2AC0508C0011BF3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259EF7462AC0508C0011BF3A;
+			remoteInfo = "PhonePe Movies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		259EF7472AC0508C0011BF3A /* PhonePe Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhonePe Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259EF74A2AC0508C0011BF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		259EF74E2AC0508C0011BF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		259EF7512AC0508C0011BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259EF7532AC0508D0011BF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259EF7562AC0508D0011BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259EF7582AC0508D0011BF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259EF75D2AC0508D0011BF3A /* PhonePe MoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhonePe MoviesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259EF7612AC0508D0011BF3A /* PhonePe_MoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePe_MoviesTests.swift; sourceTree = "<group>"; };
+		259EF7672AC0508D0011BF3A /* PhonePe MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhonePe MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		259EF76B2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePe_MoviesUITests.swift; sourceTree = "<group>"; };
+		259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePe_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259EF7442AC0508C0011BF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF75A2AC0508D0011BF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF7642AC0508D0011BF3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259EF73E2AC0508C0011BF3A = {
+			isa = PBXGroup;
+			children = (
+				259EF7492AC0508C0011BF3A /* PhonePe Movies */,
+				259EF7602AC0508D0011BF3A /* PhonePe MoviesTests */,
+				259EF76A2AC0508D0011BF3A /* PhonePe MoviesUITests */,
+				259EF7482AC0508C0011BF3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259EF7482AC0508C0011BF3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259EF7472AC0508C0011BF3A /* PhonePe Movies.app */,
+				259EF75D2AC0508D0011BF3A /* PhonePe MoviesTests.xctest */,
+				259EF7672AC0508D0011BF3A /* PhonePe MoviesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259EF7492AC0508C0011BF3A /* PhonePe Movies */ = {
+			isa = PBXGroup;
+			children = (
+				259EF74A2AC0508C0011BF3A /* AppDelegate.swift */,
+				259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */,
+				259EF74E2AC0508C0011BF3A /* ViewController.swift */,
+				259EF7502AC0508C0011BF3A /* Main.storyboard */,
+				259EF7532AC0508D0011BF3A /* Assets.xcassets */,
+				259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */,
+				259EF7582AC0508D0011BF3A /* Info.plist */,
+			);
+			path = "PhonePe Movies";
+			sourceTree = "<group>";
+		};
+		259EF7602AC0508D0011BF3A /* PhonePe MoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				259EF7612AC0508D0011BF3A /* PhonePe_MoviesTests.swift */,
+			);
+			path = "PhonePe MoviesTests";
+			sourceTree = "<group>";
+		};
+		259EF76A2AC0508D0011BF3A /* PhonePe MoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259EF76B2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift */,
+				259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */,
+			);
+			path = "PhonePe MoviesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259EF7462AC0508C0011BF3A /* PhonePe Movies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259EF7712AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe Movies" */;
+			buildPhases = (
+				259EF7432AC0508C0011BF3A /* Sources */,
+				259EF7442AC0508C0011BF3A /* Frameworks */,
+				259EF7452AC0508C0011BF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PhonePe Movies";
+			productName = "PhonePe Movies";
+			productReference = 259EF7472AC0508C0011BF3A /* PhonePe Movies.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259EF75C2AC0508D0011BF3A /* PhonePe MoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259EF7742AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe MoviesTests" */;
+			buildPhases = (
+				259EF7592AC0508D0011BF3A /* Sources */,
+				259EF75A2AC0508D0011BF3A /* Frameworks */,
+				259EF75B2AC0508D0011BF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259EF75F2AC0508D0011BF3A /* PBXTargetDependency */,
+			);
+			name = "PhonePe MoviesTests";
+			productName = "PhonePe MoviesTests";
+			productReference = 259EF75D2AC0508D0011BF3A /* PhonePe MoviesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259EF7662AC0508D0011BF3A /* PhonePe MoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259EF7772AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe MoviesUITests" */;
+			buildPhases = (
+				259EF7632AC0508D0011BF3A /* Sources */,
+				259EF7642AC0508D0011BF3A /* Frameworks */,
+				259EF7652AC0508D0011BF3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259EF7692AC0508D0011BF3A /* PBXTargetDependency */,
+			);
+			name = "PhonePe MoviesUITests";
+			productName = "PhonePe MoviesUITests";
+			productReference = 259EF7672AC0508D0011BF3A /* PhonePe MoviesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259EF73F2AC0508C0011BF3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					259EF7462AC0508C0011BF3A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					259EF75C2AC0508D0011BF3A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 259EF7462AC0508C0011BF3A;
+					};
+					259EF7662AC0508D0011BF3A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 259EF7462AC0508C0011BF3A;
+					};
+				};
+			};
+			buildConfigurationList = 259EF7422AC0508C0011BF3A /* Build configuration list for PBXProject "PhonePe Movies" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259EF73E2AC0508C0011BF3A;
+			productRefGroup = 259EF7482AC0508C0011BF3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259EF7462AC0508C0011BF3A /* PhonePe Movies */,
+				259EF75C2AC0508D0011BF3A /* PhonePe MoviesTests */,
+				259EF7662AC0508D0011BF3A /* PhonePe MoviesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259EF7452AC0508C0011BF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EF7572AC0508D0011BF3A /* LaunchScreen.storyboard in Resources */,
+				259EF7542AC0508D0011BF3A /* Assets.xcassets in Resources */,
+				259EF7522AC0508C0011BF3A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF75B2AC0508D0011BF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF7652AC0508D0011BF3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259EF7432AC0508C0011BF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EF74F2AC0508C0011BF3A /* ViewController.swift in Sources */,
+				259EF74B2AC0508C0011BF3A /* AppDelegate.swift in Sources */,
+				259EF74D2AC0508C0011BF3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF7592AC0508D0011BF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EF7622AC0508D0011BF3A /* PhonePe_MoviesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259EF7632AC0508D0011BF3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259EF76C2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift in Sources */,
+				259EF76E2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259EF75F2AC0508D0011BF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259EF7462AC0508C0011BF3A /* PhonePe Movies */;
+			targetProxy = 259EF75E2AC0508D0011BF3A /* PBXContainerItemProxy */;
+		};
+		259EF7692AC0508D0011BF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259EF7462AC0508C0011BF3A /* PhonePe Movies */;
+			targetProxy = 259EF7682AC0508D0011BF3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259EF7502AC0508C0011BF3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EF7512AC0508C0011BF3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259EF7562AC0508D0011BF3A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259EF76F2AC0508D0011BF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		259EF7702AC0508D0011BF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259EF7722AC0508D0011BF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhonePe Movies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259EF7732AC0508D0011BF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PhonePe Movies/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-Movies";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259EF7752AC0508D0011BF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePe Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhonePe Movies";
+			};
+			name = Debug;
+		};
+		259EF7762AC0508D0011BF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-MoviesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhonePe Movies.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhonePe Movies";
+			};
+			name = Release;
+		};
+		259EF7782AC0508D0011BF3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhonePe Movies";
+			};
+			name = Debug;
+		};
+		259EF7792AC0508D0011BF3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9KY5Z2V8M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.msk.PhonePe-MoviesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PhonePe Movies";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259EF7422AC0508C0011BF3A /* Build configuration list for PBXProject "PhonePe Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EF76F2AC0508D0011BF3A /* Debug */,
+				259EF7702AC0508D0011BF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259EF7712AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe Movies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EF7722AC0508D0011BF3A /* Debug */,
+				259EF7732AC0508D0011BF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259EF7742AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe MoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EF7752AC0508D0011BF3A /* Debug */,
+				259EF7762AC0508D0011BF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259EF7772AC0508D0011BF3A /* Build configuration list for PBXNativeTarget "PhonePe MoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259EF7782AC0508D0011BF3A /* Debug */,
+				259EF7792AC0508D0011BF3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259EF73F2AC0508C0011BF3A /* Project object */;
+}
