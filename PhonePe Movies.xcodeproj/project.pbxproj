@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		259EF74B2AC0508C0011BF3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74A2AC0508C0011BF3A /* AppDelegate.swift */; };
 		259EF74D2AC0508C0011BF3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */; };
-		259EF74F2AC0508C0011BF3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF74E2AC0508C0011BF3A /* ViewController.swift */; };
 		259EF7542AC0508D0011BF3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7532AC0508D0011BF3A /* Assets.xcassets */; };
 		259EF7572AC0508D0011BF3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */; };
 		259EF7622AC0508D0011BF3A /* PhonePe_MoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF7612AC0508D0011BF3A /* PhonePe_MoviesTests.swift */; };
 		259EF76C2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF76B2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift */; };
 		259EF76E2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */; };
+		259EF77C2AC0539B0011BF3A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF77B2AC0539B0011BF3A /* Page.swift */; };
+		259EF77E2AC053C10011BF3A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF77D2AC053C10011BF3A /* Movie.swift */; };
+		259EF7812AC053F80011BF3A /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF7802AC053F80011BF3A /* Request.swift */; };
+		259EF7832AC054380011BF3A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259EF7822AC054380011BF3A /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 		259EF7472AC0508C0011BF3A /* PhonePe Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PhonePe Movies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259EF74A2AC0508C0011BF3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		259EF74E2AC0508C0011BF3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		259EF7532AC0508D0011BF3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259EF7562AC0508D0011BF3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259EF7582AC0508D0011BF3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		259EF7672AC0508D0011BF3A /* PhonePe MoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PhonePe MoviesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		259EF76B2AC0508D0011BF3A /* PhonePe_MoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePe_MoviesUITests.swift; sourceTree = "<group>"; };
 		259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePe_MoviesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		259EF77B2AC0539B0011BF3A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		259EF77D2AC053C10011BF3A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		259EF7802AC053F80011BF3A /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		259EF7822AC054380011BF3A /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,8 @@
 			children = (
 				259EF74A2AC0508C0011BF3A /* AppDelegate.swift */,
 				259EF74C2AC0508C0011BF3A /* SceneDelegate.swift */,
-				259EF74E2AC0508C0011BF3A /* ViewController.swift */,
+				259EF77F2AC053E00011BF3A /* Network */,
+				259EF77A2AC0535A0011BF3A /* Models */,
 				259EF7532AC0508D0011BF3A /* Assets.xcassets */,
 				259EF7552AC0508D0011BF3A /* LaunchScreen.storyboard */,
 				259EF7582AC0508D0011BF3A /* Info.plist */,
@@ -122,6 +129,24 @@
 				259EF76D2AC0508D0011BF3A /* PhonePe_MoviesUITestsLaunchTests.swift */,
 			);
 			path = "PhonePe MoviesUITests";
+			sourceTree = "<group>";
+		};
+		259EF77A2AC0535A0011BF3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				259EF77B2AC0539B0011BF3A /* Page.swift */,
+				259EF77D2AC053C10011BF3A /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		259EF77F2AC053E00011BF3A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				259EF7802AC053F80011BF3A /* Request.swift */,
+				259EF7822AC054380011BF3A /* APIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				259EF74F2AC0508C0011BF3A /* ViewController.swift in Sources */,
+				259EF7832AC054380011BF3A /* APIManager.swift in Sources */,
 				259EF74B2AC0508C0011BF3A /* AppDelegate.swift in Sources */,
 				259EF74D2AC0508C0011BF3A /* SceneDelegate.swift in Sources */,
+				259EF7812AC053F80011BF3A /* Request.swift in Sources */,
+				259EF77E2AC053C10011BF3A /* Movie.swift in Sources */,
+				259EF77C2AC0539B0011BF3A /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
